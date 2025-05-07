@@ -1,0 +1,94 @@
+@keyframes rotate{
+    0%{
+        transform:rotate(0deg);
+    }
+    
+    100%{
+        transform:rotate(360deg);
+    }
+}
+
+@keyframes textEffect{
+    3%{
+        left:0%;
+    }
+    
+    50%{
+        left:100%;
+    }
+
+    80%{
+        left:100%;
+    }
+
+    100%{
+        left:0%;
+    }
+}
+
+@keyframes animate{
+    0%{
+        transform:scaleX(0);
+    }
+
+    100%{
+        transform:scaleX(1);
+    }
+}
+
+@keyframes showText{
+    0%{
+        opacity:0;
+    }
+    
+    100%{
+        opacity:1;
+    }
+}
+
+@keyframes animate-bar{
+    100%{
+        stroke-dashoffset:-1;
+    }
+}
+
+@keyframes animate-path1{
+    100%{
+        stroke-dashoffset:50;
+    }
+}
+
+@keyframes animate-path2{
+    100%{
+        stroke-dashoffset:175;
+    }
+}
+
+@keyframes animate-path3{
+    100%{
+        stroke-dashoffset:125;
+    }
+}
+
+@keyframes animate-path4{
+    100%{
+        stroke-dashoffset:150;
+    }
+}
+
+@keyframes up{
+    100%{
+        transform:translateY(-3px);
+    }
+}
+
+@keyframes fadeInLeft{
+    0%{
+        opacity:0;
+        transform:translateX(800px);
+    }
+    100%{
+        opacity:1;
+        transform:translateX(0px);
+    }
+}
